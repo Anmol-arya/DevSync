@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* This replaces our old tailwind.config.js */
+@theme {
+  --color-brand-navy: #0B1120;
+  --color-brand-card: #1E293B;
+  --color-brand-yellow: #FBBF24;
+}
+
+/* Set global default colors */
+body {
+  background-color: var(--color-brand-navy);
+  color: #F8FAFC; 
+}
+
+
